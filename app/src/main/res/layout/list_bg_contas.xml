@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_marginTop="45dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/ivImg"
+        android:layout_marginRight="20dp"
+        android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tvDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="72dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="17dp"
+            android:textStyle="bold"
+            android:maxLines="1"
+            android:text="Description"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tvLocal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="72dp"
+            android:layout_below="@+id/tvDescription"
+            android:text="Market"
+            android:textColor="@color/primary_dark_material_light"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tvMoney"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="72dp"
+            android:layout_below="@+id/tvLocal"
+            android:layout_marginBottom="17dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:maxLines="1"
+            android:text="R$300,00"
+            android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/tvDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="17dp"
+        android:layout_marginLeft="20dp"
+        android:layout_alignBaseline="@+id/tvDescription"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="30dp"
+        android:text="26 de jan"
+        android:textColor="@color/grey"
+        android:textSize="14sp" />
+
+</RelativeLayout>

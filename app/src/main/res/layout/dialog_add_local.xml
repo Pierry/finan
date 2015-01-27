@@ -1,0 +1,39 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="85dp"
+        android:textSize="20dp"
+        android:layout_alignLeft="@+id/etLocal"
+        android:text="Adicionar local" />
+    <EditText
+        android:id="@+id/etLocal"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/tv"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/layout_bg"
+        android:hint="Local"
+        android:padding="13dp"
+        android:singleLine="true" />
+
+    <Button
+        android:id="@+id/btnSalvar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/etLocal"
+        android:layout_below="@+id/etLocal"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="85dp"
+        android:padding="20dp"
+        android:background="@drawable/layout_bg_blue"
+        android:text="SALVAR"
+        android:textColor="@color/white" />
+
+
+</RelativeLayout>

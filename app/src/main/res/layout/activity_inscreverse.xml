@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="85dp"
+        android:textSize="20dp"
+        android:layout_alignLeft="@+id/etUser"
+        android:text="Cadastro" />
+    <EditText
+        android:id="@+id/etUser"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/tv"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/layout_bg"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:padding="13dp"
+        android:singleLine="true" />
+
+    <EditText
+        android:id="@+id/etPass"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etUser"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/layout_bg"
+        android:hint="@string/senha"
+        android:inputType="textPassword"
+        android:padding="13dp"
+        android:singleLine="true" />
+    <EditText
+        android:id="@+id/etPassConfirm"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etPass"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/layout_bg"
+        android:hint="@string/confirmarsenha"
+        android:inputType="textPassword"
+        android:padding="13dp"
+        android:singleLine="true" />
+
+    <Button
+        android:id="@+id/btnSalvar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/etUser"
+        android:layout_below="@+id/etPassConfirm"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="85dp"
+        android:padding="20dp"
+        android:background="@drawable/layout_bg_blue"
+        android:text="SALVAR"
+        android:textColor="@color/white" />
+
+
+</RelativeLayout>
