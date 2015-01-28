@@ -65,6 +65,10 @@ public class RelatorioAdapter extends
                 || local.toLowerCase().contains("padaria")
                 || local.toLowerCase().contains("lanche")) {
             vm.ivImg.setImageDrawable(context.getResources().getDrawable(R.drawable.icon_food));
+        } else if (local.toLowerCase().contains("mercado")
+                || local.toLowerCase().contains("rancho")
+                || local.toLowerCase().contains("compras")) {
+            vm.ivImg.setImageDrawable(context.getResources().getDrawable(R.drawable.icon_compras));
         } else if (local.toLowerCase().contains("combustivel")
                 || local.toLowerCase().contains("combustível")
                 || local.toLowerCase().contains("gasolina")
@@ -96,6 +100,9 @@ public class RelatorioAdapter extends
                 || local.toLowerCase().contains("aula")
                 || local.toLowerCase().contains("escola")){
             vm.ivImg.setImageDrawable(context.getResources().getDrawable(R.drawable.icon_educacao));
+        } else if (local.toLowerCase().contains("moradia")
+                || local.toLowerCase().contains("casa")){
+            vm.ivImg.setImageDrawable(context.getResources().getDrawable(R.drawable.icon_moradia));
         } else {
             vm.ivImg.setImageDrawable(context.getResources().getDrawable(R.drawable.icon_entrada));
         }
