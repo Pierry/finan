@@ -15,6 +15,11 @@
       </config>
     </shared>
     <layouts>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_add_lancamento.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
       <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_relatorios.xml">
         <config>
           <theme>@style/AppTheme</theme>
@@ -31,7 +36,43 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="app: pierrydev.com.br.finan" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="92ce253d-f431-46bb-a0e0-39cd0bd7ec3d" name="Default" comment="" />
+    <list default="true" id="92ce253d-f431-46bb-a0e0-39cd0bd7ec3d" name="Default" comment="">
+      <change type="DELETED" beforePath="C:\Users\Pierry\AndroidStudioProjects\Finan\.idea\libraries\androidannotations_api_3_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Pierry\AndroidStudioProjects\Finan\.idea\libraries\appcompat_v7_21_0_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Pierry\AndroidStudioProjects\Finan\.idea\libraries\appcompat_v7_21_0_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Pierry\AndroidStudioProjects\Finan\.idea\libraries\circlebutton_1_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Pierry\AndroidStudioProjects\Finan\.idea\libraries\crouton_1_8_5.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Pierry\AndroidStudioProjects\Finan\.idea\libraries\jackson_annotations_2_4_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Pierry\AndroidStudioProjects\Finan\.idea\libraries\jackson_core_2_4_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Pierry\AndroidStudioProjects\Finan\.idea\libraries\jackson_databind_2_4_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Pierry\AndroidStudioProjects\Finan\.idea\libraries\lib_core_3_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Pierry\AndroidStudioProjects\Finan\.idea\libraries\lib_core_slh_3_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Pierry\AndroidStudioProjects\Finan\.idea\libraries\lib_manipulation_3_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Pierry\AndroidStudioProjects\Finan\.idea\libraries\library_1_0_7.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Pierry\AndroidStudioProjects\Finan\.idea\libraries\library_2_4_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Pierry\AndroidStudioProjects\Finan\.idea\libraries\play_services_6_1_11.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Pierry\AndroidStudioProjects\Finan\.idea\libraries\robototextview_2_3_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Pierry\AndroidStudioProjects\Finan\.idea\libraries\support_annotations_21_0_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Pierry\AndroidStudioProjects\Finan\.idea\libraries\support_annotations_21_0_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Pierry\AndroidStudioProjects\Finan\.idea\libraries\support_v4_21_0_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Pierry\AndroidStudioProjects\Finan\.idea\libraries\support_v4_21_0_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Pierry\AndroidStudioProjects\Finan\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Pierry\AndroidStudioProjects\Finan\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Pierry\AndroidStudioProjects\Finan\app\src\main\res\drawable-xxhdpi\ic_launcher.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_launcher.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_launcher.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_launcher.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Finan.iml" afterPath="$PROJECT_DIR$/Finan.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_inscreverse.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_inscreverse.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/dialog_add_local.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/dialog_add_local.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_add_lancamento.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_add_lancamento.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="Finan.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -53,110 +94,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="RelatorioFragment.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/pierrydev/com/br/finan/fragments/RelatorioFragment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1258" max-vertical-offset="1887">
-              <caret line="74" column="5" selection-start-line="74" selection-start-column="5" selection-end-line="74" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RelatorioAdapter.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/pierrydev/com/br/finan/views/adapters/RelatorioAdapter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="1649">
-              <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-              <folding>
-                <element signature="method#getView#0;class#RelatorioAdapter#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoginActivity.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="LoginActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/pierrydev/com/br/finan/LoginActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="969" max-vertical-offset="2754">
-              <caret line="57" column="16" selection-start-line="57" selection-start-column="16" selection-end-line="61" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fragment_relatorios.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_relatorios.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1230" max-vertical-offset="1802">
-              <caret line="90" column="39" selection-start-line="90" selection-start-column="39" selection-end-line="90" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fragment_main.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_main.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.3945312" vertical-offset="0" max-vertical-offset="527">
-              <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="1802">
-              <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="styles.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="238">
-              <caret line="3" column="61" selection-start-line="3" selection-start-column="61" selection-end-line="3" selection-end-column="61" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/pierrydev/com/br/finan/MainActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="714" max-vertical-offset="1717">
-              <caret line="42" column="99" selection-start-line="42" selection-start-column="99" selection-end-line="42" selection-end-column="99" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="colors.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="268" max-vertical-offset="867">
-              <caret line="33" column="23" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GoogleCardsAdapter.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/pierrydev/com/br/finan/views/adapters/GoogleCardsAdapter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1768" max-vertical-offset="2159">
-              <caret line="104" column="9" selection-start-line="55" selection-start-column="8" selection-end-line="104" selection-end-column="9" />
-              <folding />
+            <state vertical-scroll-proportion="0.36894825" vertical-offset="340" max-vertical-offset="986">
+              <caret line="57" column="57" selection-start-line="57" selection-start-column="57" selection-end-line="57" selection-end-column="57" />
+              <folding>
+                <element signature="e#3622#4929#0" expanded="true" />
+                <element signature="e#4918#4919#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -172,6 +118,9 @@
     <option name="KEY_STORE_PATH" value="C:\Users\Pierry\AndroidStudioProjects\Finan\docs\key.jks" />
     <option name="KEY_ALIAS" value="finan" />
     <option name="REMEMBER_PASSWORDS" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="tasksExpandState">
@@ -947,14 +896,49 @@
                 <option name="name" value="preReleaseBuild" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:appcompat-v7:21.0.2" />
+                <option name="description" value="Prepare com.android.support:appcompat-v7:21.0.3" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="prepareComAndroidSupportAppcompatV72102Library" />
+                <option name="name" value="prepareComAndroidSupportAppcompatV72103Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:support-v4:21.0.2" />
+                <option name="description" value="Prepare com.android.support:support-v4:21.0.3" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="prepareComAndroidSupportSupportV42102Library" />
+                <option name="name" value="prepareComAndroidSupportSupportV42103Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.github.johnkil.android-robototextview:robototextview:2.3.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="prepareComGithubJohnkilAndroidRobototextviewRobototextview230Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.github.markushi:circlebutton:1.1" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="prepareComGithubMarkushiCirclebutton11Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.google.android.gms:play-services:6.1.11" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="prepareComGoogleAndroidGmsPlayServices6111Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.nhaarman.listviewanimations:lib-core:3.1.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="prepareComNhaarmanListviewanimationsLibCore310Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.nhaarman.listviewanimations:lib-core-slh:3.1.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="prepareComNhaarmanListviewanimationsLibCoreSlh310Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.nhaarman.listviewanimations:lib-manipulation:3.1.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="prepareComNhaarmanListviewanimationsLibManipulation310Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare de.keyboardsurfer.android.widget:crouton:1.8.5" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="prepareDeKeyboardsurferAndroidWidgetCrouton185Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
@@ -1044,7 +1028,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="4260957172613" />
+        <entry key="$PROJECT_DIR$" value="4266771327815" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -1159,15 +1143,12 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/java/pierrydev/com/br/finan/domain/contracts/repositories/UsuarioRepositoryImpl.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/pierrydev/com/br/finan/domain/contracts/controllers/UsuarioControllerImpl.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/pierrydev/com/br/finan/domain/contracts/services/UsuarioServiceImpl.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/pierrydev/com/br/finan/views/adapters/ViewPagerMainAdapter.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/pierrydev/com/br/finan/controllers/UsuarioController.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/pierrydev/com/br/finan/repositories/cursors/UsuarioCursor.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/pierrydev/com/br/finan/services/UsuarioService.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/pierrydev/com/br/finan/domain/entities/Lancamento.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_add_lancamento.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/pierrydev/com/br/finan/domain/entities/Local.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/pierrydev/com/br/finan/repositories/entities/LocalDbModel.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/pierrydev/com/br/finan/repositories/LocalRepository.java" />
@@ -1201,25 +1182,28 @@
         <option value="$PROJECT_DIR$/app/src/main/res/values-en/strings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/pierrydev/com/br/finan/fragments/RelatorioFragment.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_inscreverse.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/dialog_add_local.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_relatorios.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/pierrydev/com/br/finan/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/pierrydev/com/br/finan/views/adapters/GoogleCardsAdapter.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/list_bg_contas.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/pierrydev/com/br/finan/views/adapters/RelatorioAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_add_lancamento.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_inscreverse.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/dialog_add_local.xml" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/app/build.gradle" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1358" />
-    <option name="y" value="-188" />
+    <option name="x" value="-1374" />
+    <option name="y" value="-257" />
     <option name="width" value="1382" />
     <option name="height" value="784" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -1245,8 +1229,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -1275,8 +1257,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Finan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Finan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1303,6 +1301,7 @@
     <property name="ExportApk.ApkPath" value="C:\Users\Pierry\AndroidStudioProjects\Finan\docs" />
     <property name="ExportApk.Flavors" value="" />
     <property name="ExportApk.BuildType" value="release" />
+    <property name="FullScreen" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -1512,13 +1511,12 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1358" y="-188" width="1382" height="784" extended-state="6" />
+    <frame x="-1374" y="-257" width="1382" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39872408" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1528,21 +1526,23 @@
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21785174" sideWeight="0.50079745" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32854864" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.50398725" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.50398725" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21785174" sideWeight="0.49920255" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20726173" sideWeight="0.49920255" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32854864" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Memory Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="15" side_tool="true" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32854864" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32854864" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1568,26 +1568,10 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="1802">
-          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/pierrydev/com/br/finan/repositories/cursors/UsuarioCursor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36103153" vertical-offset="299" max-vertical-offset="782">
-          <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="41" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/pierrydev/com/br/finan/controllers/LocalController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
           <caret line="38" column="38" selection-start-line="38" selection-start-column="38" selection-end-line="38" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1595,7 +1579,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.19866444" vertical-offset="0" max-vertical-offset="599">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1603,7 +1586,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.22704507" vertical-offset="0" max-vertical-offset="599">
           <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1646,16 +1628,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="173" max-vertical-offset="1275">
           <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding>
-            <element signature="e#593#594#0" expanded="false" />
-            <element signature="e#623#624#0" expanded="false" />
-            <element signature="e#676#677#0" expanded="false" />
-            <element signature="e#728#729#0" expanded="false" />
-            <element signature="method#add#0;class#LocalRepository#0" expanded="false" />
-            <element signature="method#update#0;class#LocalRepository#0" expanded="false" />
-            <element signature="method#remove#0;class#LocalRepository#0" expanded="false" />
-            <element signature="method#listaCompleta#0;class#LocalRepository#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1667,25 +1639,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/widget_rodape_button.xml">
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
           <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_add_lancamento.xml">
-      <provider editor-type-id="android-designer">
+      <provider selected="true" editor-type-id="android-designer">
         <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7734375" vertical-offset="295" max-vertical-offset="2142">
-          <caret line="29" column="40" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/pierrydev/com/br/finan/repositories/entities/LocalDbModel.java">
@@ -1790,13 +1751,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.10684474" vertical-offset="200" max-vertical-offset="799">
           <caret line="8" column="51" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="method#LancamentoService#0;class#LancamentoService#0" expanded="false" />
-            <element signature="method#getByIdLocal#0;class#LancamentoService#0" expanded="false" />
-            <element signature="e#1300#1301#0" expanded="false" />
-            <element signature="e#1350#1351#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1804,7 +1758,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="64" max-vertical-offset="663">
           <caret line="48" column="35" selection-start-line="48" selection-start-column="35" selection-end-line="48" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1819,7 +1772,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
           <caret line="12" column="65" selection-start-line="12" selection-start-column="65" selection-end-line="12" selection-end-column="65" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1834,7 +1786,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
           <caret line="14" column="54" selection-start-line="14" selection-start-column="54" selection-end-line="14" selection-end-column="54" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1846,14 +1797,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/list_bg_relatorio.xml">
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="816">
           <caret line="8" column="30" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="30" />
           <folding />
         </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values-en/strings.xml">
@@ -1864,58 +1815,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_inscreverse.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.11888112" vertical-offset="0" max-vertical-offset="1190">
-          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="11" selection-end-column="34" />
-          <folding>
-            <element signature="e#806#821#0" expanded="false" />
-            <element signature="e#1264#1279#0" expanded="false" />
-            <element signature="e#1724#1748#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/dialog_add_local.xml">
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="748">
-          <caret line="10" column="46" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.11888112" vertical-offset="0" max-vertical-offset="1394">
-          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="11" selection-end-column="32" />
-          <folding>
-            <element signature="e#806#821#0" expanded="false" />
-            <element signature="e#1265#1280#0" expanded="false" />
-            <element signature="e#2670#2692#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/pierrydev/com/br/finan/fragments/RelatorioFragment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="557" max-vertical-offset="1411">
           <caret line="74" column="5" selection-start-line="74" selection-start-column="5" selection-end-line="74" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="1802">
+        <state vertical-scroll-proportion="0.1184669" vertical-offset="85" max-vertical-offset="1802">
           <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
           <folding />
         </state>
@@ -1923,16 +1832,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
+        <state vertical-scroll-proportion="0.085141905" vertical-offset="0" max-vertical-offset="599">
           <caret line="3" column="61" selection-start-line="3" selection-start-column="61" selection-end-line="3" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/pierrydev/com/br/finan/LoginActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="387" max-vertical-offset="986">
-          <caret line="57" column="16" selection-start-line="57" selection-start-column="16" selection-end-line="61" selection-end-column="36" />
           <folding />
         </state>
       </provider>
@@ -1941,45 +1842,43 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="268" max-vertical-offset="1377">
           <caret line="42" column="99" selection-start-line="42" selection-start-column="99" selection-end-line="42" selection-end-column="99" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="268" max-vertical-offset="867">
+        <state vertical-scroll-proportion="0.4891486" vertical-offset="268" max-vertical-offset="867">
           <caret line="33" column="23" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/list_bg_contas.xml">
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="618" max-vertical-offset="1190">
           <caret line="57" column="50" selection-start-line="57" selection-start-column="50" selection-end-line="57" selection-end-column="50" />
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_relatorios.xml">
-      <provider editor-type-id="android-designer">
+      <provider selected="true" editor-type-id="android-designer">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_relatorios.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1230" max-vertical-offset="1802">
           <caret line="90" column="39" selection-start-line="90" selection-start-column="39" selection-end-line="90" selection-end-column="39" />
           <folding />
         </state>
       </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/pierrydev/com/br/finan/views/adapters/GoogleCardsAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1050" max-vertical-offset="1649">
+        <state vertical-scroll-proportion="0.3472454" vertical-offset="1560" max-vertical-offset="2159">
           <caret line="104" column="9" selection-start-line="55" selection-start-column="8" selection-end-line="104" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1987,20 +1886,88 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="1649">
           <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-          <folding>
-            <element signature="method#getView#0;class#RelatorioAdapter#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_main.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="890" max-vertical-offset="1649">
+          <caret line="84" column="36" selection-start-line="84" selection-start-column="36" selection-end-line="84" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_add_lancamento.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4458042" vertical-offset="510" max-vertical-offset="2210">
+          <caret line="45" column="46" selection-start-line="45" selection-start-column="46" selection-end-line="45" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
       <provider editor-type-id="android-designer">
         <state />
       </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.3945312" vertical-offset="0" max-vertical-offset="527">
-          <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_inscreverse.xml">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="941" max-vertical-offset="1530">
+          <caret line="74" column="45" selection-start-line="74" selection-start-column="45" selection-end-line="74" selection-end-column="45" />
           <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/dialog_add_local.xml">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="295" max-vertical-offset="884">
+          <caret line="36" column="45" selection-start-line="36" selection-start-column="45" selection-end-line="36" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334" vertical-offset="116" max-vertical-offset="527">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3554007" vertical-offset="0" max-vertical-offset="574">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3338898" vertical-offset="412" max-vertical-offset="1513">
+          <caret line="36" column="50" selection-start-line="36" selection-start-column="50" selection-end-line="36" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/pierrydev/com/br/finan/LoginActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.36894825" vertical-offset="340" max-vertical-offset="986">
+          <caret line="57" column="57" selection-start-line="57" selection-start-column="57" selection-end-line="57" selection-end-column="57" />
+          <folding>
+            <element signature="e#3622#4929#0" expanded="true" />
+            <element signature="e#4918#4919#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

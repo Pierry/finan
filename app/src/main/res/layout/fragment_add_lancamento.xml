@@ -26,10 +26,12 @@
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
                 android:layout_marginTop="15dp"
-                android:background="@drawable/layout_bg"
                 android:hint="@string/dinheiro"
                 android:inputType="numberDecimal"
-                android:padding="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
                 android:singleLine="true"
                 android:textColor="@color/red"
                 android:textSize="26sp" />
@@ -42,10 +44,12 @@
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
                 android:layout_marginTop="5dp"
-                android:background="@drawable/layout_bg"
                 android:hint="@string/descricao"
                 android:inputType="textMultiLine"
-                android:padding="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
                 android:textSize="14sp" />
 
             <LinearLayout

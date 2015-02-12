@@ -20,7 +20,10 @@
         android:background="@drawable/layout_bg"
         android:hint="@string/email"
         android:inputType="textEmailAddress"
-        android:padding="13dp"
+        android:paddingLeft="13dp"
+        android:paddingRight="13dp"
+        android:paddingTop="13dp"
+        android:paddingBottom="13dp"
         android:singleLine="true" />
 
     <EditText
@@ -33,7 +36,10 @@
         android:background="@drawable/layout_bg"
         android:hint="@string/senha"
         android:inputType="textPassword"
-        android:padding="13dp"
+        android:paddingLeft="13dp"
+        android:paddingRight="13dp"
+        android:paddingTop="13dp"
+        android:paddingBottom="13dp"
         android:singleLine="true" />
 
     <Button
@@ -43,7 +49,10 @@
         android:layout_alignLeft="@+id/etEmail"
         android:layout_below="@+id/etPass"
         android:layout_marginTop="25dp"
-        android:padding="20dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
         android:background="@drawable/layout_bg_blue"
         android:text="LOG IN"
         android:textColor="@color/white" />
@@ -56,7 +65,10 @@
         android:layout_marginLeft="15dp"
         android:layout_marginTop="25dp"
         android:textColor="@color/black"
-        android:padding="20dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
         android:layout_toRightOf="@+id/btnConnect"
         android:background="@drawable/layout_bg"
         android:text="SIGN UP" />
@@ -67,7 +79,10 @@
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/etEmail"
         android:layout_below="@+id/btnConnect"
-        android:padding="20dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
         android:layout_marginTop="35dp"
         android:background="@android:color/transparent"
         android:text="@string/salvar_dados"
