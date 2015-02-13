@@ -39,6 +39,7 @@ dependencies {
         // exclusion is not neccessary, but generally a good idea.
         exclude group: 'com.google.android', module: 'support-v4'
     }
+    compile 'com.jjoe64:graphview:4.0.0'
     compile fileTree(dir: 'libs', include: '*.jar')
 }
 

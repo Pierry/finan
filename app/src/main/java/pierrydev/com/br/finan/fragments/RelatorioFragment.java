@@ -9,6 +9,9 @@ import android.view.ViewGroup;
 import android.widget.ListView;
 import android.widget.TextView;
 
+import com.jjoe64.graphview.GraphView;
+import com.jjoe64.graphview.series.DataPoint;
+import com.jjoe64.graphview.series.LineGraphSeries;
 import com.nhaarman.listviewanimations.appearance.simple.ScaleInAnimationAdapter;
 
 import org.androidannotations.annotations.AfterViews;
@@ -43,6 +46,9 @@ public class RelatorioFragment extends Fragment {
     @ViewById
     TextView tvSaida;
 
+    @ViewById
+    GraphView graph;
+
     private List<Lancamento> lancs;
     private LancamentoController _lancamentoController;
     private RelatorioAdapter _relatorioAdapter;
@@ -57,6 +63,18 @@ public class RelatorioFragment extends Fragment {
     public void init() {
         _lancamentoController = new LancamentoController(new LancamentoService(new LancamentoRepository(getActivity())));
         getListView(Progress.getShow(getActivity()));
+    }
+
+    @UiThread
+    public void initGraafico(List<Lancamento> lancs){
+        LineGraphSeries<DataPoint> series = new LineGraphSeries<DataPoint>(new DataPoint[] {
+                new DataPoint(0, 1),
+                new DataPoint(1, 5),
+                new DataPoint(2, 3),
+                new DataPoint(3, 2),
+                new DataPoint(4, 6)
+        });
+        graph.addSeries(series);
     }
 
     @Background
@@ -99,6 +117,7 @@ public class RelatorioFragment extends Fragment {
         tvEntrada.setText(FormatarValor.getValor(totalEntrada));
         tvSaida.setText(FormatarValor.getValor(totalSaida));
         tvSaldo.setText(FormatarValor.getValor(saldo));
+        initGraafico(lancs);
 
     }
 
