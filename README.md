@@ -5,6 +5,7 @@
 * ListView Animations
 * CircleButton
 * Crouton
+* [GraphView](http://www.android-graphview.org/)
 
 ### Caracteristicas
 * Padrão Repository para manipulação do banco de dados
