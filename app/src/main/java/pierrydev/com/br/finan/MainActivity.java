@@ -6,7 +6,21 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.ActionBarActivity;
+import android.view.Menu;
+import android.view.MenuItem;
+import android.view.View;
+import android.widget.AdapterView;
 
+import com.mikepenz.iconics.typeface.FontAwesome;
+import com.mikepenz.materialdrawer.Drawer;
+import com.mikepenz.materialdrawer.model.DividerDrawerItem;
+import com.mikepenz.materialdrawer.model.PrimaryDrawerItem;
+import com.mikepenz.materialdrawer.model.SecondaryDrawerItem;
+import com.mikepenz.materialdrawer.model.SectionDrawerItem;
+import com.mikepenz.materialdrawer.model.interfaces.IDrawerItem;
+import com.mikepenz.materialdrawer.model.interfaces.Nameable;
+
+import org.androidannotations.annotations.AfterViews;
 import org.androidannotations.annotations.EActivity;
 import org.androidannotations.annotations.UiThread;
 import org.androidannotations.annotations.ViewById;
@@ -16,9 +30,10 @@ import pierrydev.com.br.finan.views.adapters.ViewPagerMainAdapter;
 @EActivity(R.layout.activity_main)
 public class MainActivity extends ActionBarActivity {
 
-    private ActionBar _actionBar;
+    private ActionBar mActionBar;
     private ViewPagerMainAdapter _mainAdapter;
     private FragmentManager fm;
+    private Drawer.Result mResult;
 
     @ViewById
     ViewPager pager;
@@ -27,21 +42,32 @@ public class MainActivity extends ActionBarActivity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        _actionBar = getSupportActionBar();
-        _actionBar.setDisplayShowTitleEnabled(true);
-        _actionBar.setHomeButtonEnabled(true);
-        _actionBar.setDisplayHomeAsUpEnabled(true);
-        _actionBar.setHomeAsUpIndicator(R.drawable.ic_launcher);
-        _actionBar.setTitle("Finan");
-
         instanceViewPager();
     }
 
     @UiThread
+    public void init() {
+        mActionBar = getSupportActionBar();
+        mActionBar.setTitle("JR Pedidos");
+        mActionBar.setDisplayShowTitleEnabled(true);
+        mActionBar.setDisplayHomeAsUpEnabled(true);
+        mActionBar.setHomeButtonEnabled(true);
+
+        new Drawer()
+                .withActivity(this)
+                .withTranslucentStatusBar(false)
+                .withActionBarDrawerToggle(false)
+                .addDrawerItems(
+                        //pass your items here
+                )
+                .build();
+    }
+
+    @UiThread
     public void instanceViewPager() {
-        _actionBar.setNavigationMode(ActionBar.NAVIGATION_MODE_TABS);
-        _actionBar.setStackedBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.teal)));
-        _actionBar.setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.teal)));
+        mActionBar.setNavigationMode(ActionBar.NAVIGATION_MODE_TABS);
+        mActionBar.setStackedBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.teal)));
+        mActionBar.setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.teal)));
         fm = getSupportFragmentManager();
         ViewPager.SimpleOnPageChangeListener pageChangeListener = new ViewPager.SimpleOnPageChangeListener() {
             @Override
@@ -53,7 +79,7 @@ public class MainActivity extends ActionBarActivity {
         pager.setOnPageChangeListener(pageChangeListener);
         _mainAdapter = new ViewPagerMainAdapter(fm);
         pager.setAdapter(_mainAdapter);
-        _actionBar.setDisplayShowTitleEnabled(true);
+        mActionBar.setDisplayShowTitleEnabled(true);
 
         ActionBar.TabListener tabListener = new ActionBar.TabListener() {
             @Override
@@ -72,24 +98,34 @@ public class MainActivity extends ActionBarActivity {
             }
         };
 
-        ActionBar.Tab tab = _actionBar.newTab()
+        ActionBar.Tab tab = mActionBar.newTab()
                 .setText("Itens")
                 .setTabListener(tabListener);
 
-        _actionBar.addTab(tab);
+        mActionBar.addTab(tab);
 
-        tab = _actionBar.newTab()
+        tab = mActionBar.newTab()
                 .setText("Relatórios")
                 .setTabListener(tabListener);
 
-        _actionBar.addTab(tab);
+        mActionBar.addTab(tab);
 
-        tab = _actionBar.newTab()
+        tab = mActionBar.newTab()
                 .setText("Add item")
                 .setTabListener(tabListener);
 
-        _actionBar.addTab(tab);
+        mActionBar.addTab(tab);
 
+        //new Drawer().withActivity(this).build();
+
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        if (mResult.getActionBarDrawerToggle().onOptionsItemSelected(item)) {
+            return true;
+        }
+        return true;
     }
 
 }

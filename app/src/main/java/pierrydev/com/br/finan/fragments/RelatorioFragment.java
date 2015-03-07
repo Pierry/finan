@@ -6,12 +6,19 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.TextView;
 
 import com.jjoe64.graphview.GraphView;
 import com.jjoe64.graphview.series.DataPoint;
 import com.jjoe64.graphview.series.LineGraphSeries;
+import com.mikepenz.iconics.typeface.FontAwesome;
+import com.mikepenz.materialdrawer.Drawer;
+import com.mikepenz.materialdrawer.model.PrimaryDrawerItem;
+import com.mikepenz.materialdrawer.model.SecondaryDrawerItem;
+import com.mikepenz.materialdrawer.model.interfaces.IDrawerItem;
+import com.mikepenz.materialdrawer.model.interfaces.Nameable;
 import com.nhaarman.listviewanimations.appearance.simple.ScaleInAnimationAdapter;
 
 import org.androidannotations.annotations.AfterViews;
@@ -61,6 +68,7 @@ public class RelatorioFragment extends Fragment {
 
     @AfterViews
     public void init() {
+
         _lancamentoController = new LancamentoController(new LancamentoService(new LancamentoRepository(getActivity())));
         getListView(Progress.getShow(getActivity()));
     }

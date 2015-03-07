@@ -39,6 +39,9 @@ dependencies {
         // exclusion is not neccessary, but generally a good idea.
         exclude group: 'com.google.android', module: 'support-v4'
     }
+    compile('com.mikepenz.materialdrawer:library:2.0.0@aar') {
+        transitive = true
+    }
     compile 'com.jjoe64:graphview:4.0.0'
     compile fileTree(dir: 'libs', include: '*.jar')
 }
@@ -52,7 +55,7 @@ apt {
 
 android {
     compileSdkVersion 21 // verify current sdk
-    buildToolsVersion '21.1.1' // verify tools version
+    buildToolsVersion '21.1.2' // verify tools version
     defaultConfig {
         minSdkVersion 11
         targetSdkVersion 21
