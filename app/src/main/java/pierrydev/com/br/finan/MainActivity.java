@@ -45,22 +45,13 @@ public class MainActivity extends ActionBarActivity {
         instanceViewPager();
     }
 
-    @UiThread
+    @AfterViews
     public void init() {
         mActionBar = getSupportActionBar();
         mActionBar.setTitle("JR Pedidos");
         mActionBar.setDisplayShowTitleEnabled(true);
         mActionBar.setDisplayHomeAsUpEnabled(true);
         mActionBar.setHomeButtonEnabled(true);
-
-        new Drawer()
-                .withActivity(this)
-                .withTranslucentStatusBar(false)
-                .withActionBarDrawerToggle(false)
-                .addDrawerItems(
-                        //pass your items here
-                )
-                .build();
     }
 
     @UiThread

@@ -19,6 +19,7 @@ import pierrydev.com.br.finan.services.LocalService;
 import pierrydev.com.br.finan.utilities.FormatarValor;
 import pierrydev.com.br.finan.views.viewmodels.LancamentoVm;
 
+import com.devspark.robototextview.widget.RobotoTextView;
 import com.nhaarman.listviewanimations.ArrayAdapter;
 
 public class GoogleCardsAdapter extends
@@ -112,8 +113,8 @@ public class GoogleCardsAdapter extends
         return super.getCount();
     }
 
-    private TextView detail(View v, int resId, String text) {
-        TextView tv = (TextView) v.findViewById(resId);
+    private RobotoTextView detail(View v, int resId, String text) {
+        RobotoTextView tv = (RobotoTextView) v.findViewById(resId);
         tv.setText(text);
         return tv;
     }

@@ -3,12 +3,14 @@ package pierrydev.com.br.finan.views.viewmodels;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.devspark.robototextview.widget.RobotoTextView;
+
 public class LancamentoVm {
 
-    public TextView tvDate;
-    public TextView tvDescription;
-    public TextView tvLocal;
-    public TextView tvMoney;
+    public RobotoTextView tvDate;
+    public RobotoTextView tvDescription;
+    public RobotoTextView tvLocal;
+    public RobotoTextView tvMoney;
     public ImageView ivImg;
 
 }
