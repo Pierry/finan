@@ -8,6 +8,7 @@
 * [CircleButton](https://github.com/markushi/android-circlebutton)
 * [SimpleToast](https://github.com/Pierry/SimpleToast)
 * [GraphView](http://www.android-graphview.org/)
+* [Android-RobotoTextView](https://github.com/johnkil/Android-RobotoTextView)
 
 ### Features
 * [Repository Pattern](http://blog.lowendahl.net/data-access/the-repository-pattern-explained-and-implemented/)
