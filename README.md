@@ -2,13 +2,18 @@
 
 ### Libraries utilizadas
 * Android Annotations
+* ActiveAndroid
+* MaterialEditText
 * ListView Animations
 * CircleButton
 * Crouton
 * [GraphView](http://www.android-graphview.org/)
 
 ### Caracteristicas
-* Padrão Repository para manipulação do banco de dados
+* Repository Pattern
+* Specification Pattern
+* Dependency Injection with Android Annotations
+* S.O.L.I.D 
 * Material Design
 
 ![Finan](http://pierrydev.com/finan/image.png "Finan")
