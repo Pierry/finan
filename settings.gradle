@@ -1,1 +1,1 @@
-include ':app', ':domain', ':repositories', ':business'
+include ':finan'

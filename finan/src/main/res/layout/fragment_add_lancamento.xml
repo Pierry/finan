@@ -1,0 +1,133 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    >
+
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      >
+
+    <LinearLayout
+        android:id="@+id/ll01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        >
+
+      <com.rengwuxian.materialedittext.MaterialEditText
+          android:id="@+id/etValor"
+          android:layout_width="match_parent"
+          android:layout_height="70dp"
+          android:layout_marginLeft="20dp"
+          android:layout_marginRight="20dp"
+          android:layout_marginTop="15dp"
+          android:hint="@string/dinheiro"
+          android:singleLine="true"
+          app:met_floatingLabel="highlight"
+          app:met_primaryColor="@color/black"
+          android:textColor="@color/red"
+          android:textSize="26sp"
+          />
+
+      <com.rengwuxian.materialedittext.MaterialEditText
+          android:id="@+id/etDescricao"
+          android:layout_width="match_parent"
+          android:layout_height="100dp"
+          android:layout_below="@+id/etValor"
+          android:layout_marginLeft="20dp"
+          android:layout_marginRight="20dp"
+          android:layout_marginTop="5dp"
+          android:hint="@string/descricao"
+          android:inputType="textMultiLine"
+          app:met_floatingLabel="highlight"
+          app:met_primaryColor="@color/black"
+          android:textSize="14sp"
+          />
+
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="20dp"
+          android:orientation="horizontal"
+          >
+
+        <Spinner
+            android:id="@+id/spnEstab"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/etDescricao"
+            android:layout_marginBottom="25dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            />
+
+        <Button
+            android:id="@+id/btnAddLocal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selector_transparent"
+            android:text="+"
+            android:textColor="@color/turquoise"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            />
+      </LinearLayout>
+
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="20dp"
+          android:layout_marginTop="20dp"
+          android:orientation="horizontal"
+          >
+
+        <Button
+            android:id="@+id/btnEntrada"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selector_transparent"
+            android:text="@string/entrada"
+            android:textColor="@color/blue"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            />
+
+        <Button
+            android:id="@+id/btnSaida"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/spnEstab"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/selector_transparent"
+            android:text="@string/saida"
+            android:textColor="@color/pomegranate"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            />
+      </LinearLayout>
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btnAdicionar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/ll01"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/selector_primary"
+        android:text="Adicionar"
+        android:textColor="@color/white"
+        />
+  </RelativeLayout>
+</ScrollView>

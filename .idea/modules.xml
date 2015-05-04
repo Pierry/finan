@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Finan.iml" filepath="$PROJECT_DIR$/Finan.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/business/business.iml" filepath="$PROJECT_DIR$/business/business.iml" />
-      <module fileurl="file://$PROJECT_DIR$/domain/domain.iml" filepath="$PROJECT_DIR$/domain/domain.iml" />
-      <module fileurl="file://$PROJECT_DIR$/finan.iml" filepath="$PROJECT_DIR$/finan.iml" />
-      <module fileurl="file://$PROJECT_DIR$/repositories/repositories.iml" filepath="$PROJECT_DIR$/repositories/repositories.iml" />
+      <module fileurl="file://$PROJECT_DIR$/finan/finan.iml" filepath="$PROJECT_DIR$/finan/finan.iml" />
+      <module fileurl="file://$PROJECT_DIR$/finan/finan-finan.iml" filepath="$PROJECT_DIR$/finan/finan-finan.iml" />
     </modules>
   </component>
 </project>

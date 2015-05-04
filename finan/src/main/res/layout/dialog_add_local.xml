@@ -1,0 +1,55 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="20dp"
+    android:layout_marginTop="20dp"
+    android:layout_marginBottom="20dp"
+    android:layout_marginRight="20dp"
+    android:background="@color/white"
+    >
+  <TextView
+      android:id="@+id/tv"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="20dp"
+      android:layout_marginLeft="20dp"
+      android:layout_marginRight="20dp"
+      android:text="ADICIONAR LOCAL/SEGMENTO"
+      />
+  <com.rengwuxian.materialedittext.MaterialEditText
+      android:id="@+id/etLocal"
+      android:layout_width="250dp"
+      android:layout_height="wrap_content"
+      android:layout_centerHorizontal="true"
+      app:met_floatingLabel="highlight"
+      app:met_primaryColor="@color/black"
+      android:layout_marginLeft="10dp"
+      android:layout_marginRight="10dp"
+      android:layout_below="@+id/tv"
+      android:layout_marginTop="30dp"
+      android:hint="Local"
+      android:singleLine="true"
+      />
+
+  <Button
+      android:id="@+id/btnSalvar"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/etLocal"
+      android:layout_marginTop="25dp"
+      android:layout_marginBottom="25dp"
+      android:layout_marginRight="25dp"
+      android:layout_marginLeft="25dp"
+      android:layout_centerHorizontal="true"
+      android:paddingLeft="20dp"
+      android:paddingRight="20dp"
+      android:paddingTop="20dp"
+      android:paddingBottom="20dp"
+      android:background="@drawable/layout_bg_blue"
+      android:text="SALVAR"
+      android:textColor="@color/white"
+      />
+
+
+</RelativeLayout>
