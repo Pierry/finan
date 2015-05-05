@@ -18,7 +18,7 @@
 * [Material Design](http://www.google.com/design/spec/material-design/introduction.html)
 * [SlidingTabLayout](https://github.com/codepath/android_guides/wiki/Google-Play-Style-Tabs-using-SlidingTabLayout)
 
-![Finan](http://pierrydev.com/finan/image.png "Finan")
+![alt tag](https://raw.githubusercontent.com/Pierry/finan/master/finan/art/hero.png)
 
 
 Google Play
