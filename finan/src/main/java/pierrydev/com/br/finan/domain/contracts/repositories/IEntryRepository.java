@@ -10,7 +10,7 @@ public interface IEntryRepository {
 
   Entry getById(int id);
 
-  List<Entry> getByLocalId(int localId);
+  List<Entry> getByLocalId(long localId);
 
   void create(Entry user);
 

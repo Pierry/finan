@@ -7,7 +7,7 @@ import pierrydev.com.br.finan.domain.entities.User;
 
 public interface IEntryService {
 
-  List<Entry> getByLocalId(int localId);
+  List<Entry> getByLocalId(long localId);
 
   List<Entry> get();
 

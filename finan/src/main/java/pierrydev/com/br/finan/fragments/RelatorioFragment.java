@@ -23,6 +23,7 @@ import pierrydev.com.br.finan.R;
 import pierrydev.com.br.finan.domain.contracts.services.IEntryService;
 import pierrydev.com.br.finan.domain.contracts.services.ILocalService;
 import pierrydev.com.br.finan.domain.entities.Entry;
+import pierrydev.com.br.finan.domain.entities.Local;
 import pierrydev.com.br.finan.services.EntryService;
 import pierrydev.com.br.finan.services.LocalService;
 import pierrydev.com.br.finan.utilities.FormatarValor;
@@ -34,13 +35,13 @@ public class RelatorioFragment extends Fragment {
 
   @ViewById TextView tvSaldo, tvEntrada, tvSaida;
   @ViewById ListView lvRelatorio;
-  @ViewById GraphView graph;
 
   @Bean(EntryService.class) IEntryService entryService;
   @Bean(LocalService.class) ILocalService localService;
 
   private List<Entry> lancs;
   private RelatorioAdapter _relatorioAdapter;
+  private List<Double> totaisLocais;
 
   @Override
   public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -56,10 +57,12 @@ public class RelatorioFragment extends Fragment {
   @UiThread
   public void initGraafico(List<Entry> lancs) {
     LineGraphSeries<DataPoint> series = new LineGraphSeries<DataPoint>(new DataPoint[] {
-        new DataPoint(0, 1), new DataPoint(1, 5), new DataPoint(2, 3), new DataPoint(3, 2),
-        new DataPoint(4, 6)
+        new DataPoint(0, 1),
+        new DataPoint(1, 4),
+        new DataPoint(2, 2),
+        new DataPoint(3, 2),
+        new DataPoint(3, 2)
     });
-    graph.addSeries(series);
   }
 
   @Background

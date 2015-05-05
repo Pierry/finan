@@ -2,6 +2,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:paddingBottom="50dp"
     android:background="@color/white"
     >
 
@@ -75,7 +76,7 @@
         android:layout_marginRight="25dp"
         android:layout_marginBottom="25dp"
         android:background="@drawable/selector_default"
-        android:text="@string/salvar_dados"
+        android:text="Sign up"
         android:textColor="@color/blue"
         />
   </LinearLayout>

@@ -15,7 +15,7 @@ public class EntryService implements IEntryService {
 
   @Bean(EntryRepository.class) IEntryRepository entryRepository;
 
-  @Override public List<Entry> getByLocalId(int localId) {
+  @Override public List<Entry> getByLocalId(long localId) {
     return entryRepository.getByLocalId(localId);
   }
 
@@ -34,13 +34,14 @@ public class EntryService implements IEntryService {
     entryRepository.create(entry);
   }
 
-  @Override public void updateEntry(int entryId, double price, String description, int entryType, Local local) {
+  @Override public void updateEntry(int entryId, double price, String description, int entryType,
+      Local local) {
     Entry entry = entryRepository.getById(entryId);
     entry.updateEntry(price, description, entryType, local);
     entry.isValid();
   }
 
   @Override public void remove(Entry entry) {
-
+    entryRepository.remove(entry);
   }
 }

@@ -9,11 +9,6 @@
         android:layout_height="fill_parent"
         android:orientation="vertical">
 
-        <com.jjoe64.graphview.GraphView
-            android:id="@+id/graph"
-            android:layout_width="match_parent"
-            android:layout_height="200dip" />
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

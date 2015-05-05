@@ -17,7 +17,7 @@
       >
     <meta-data
         android:name="AA_DB_NAME"
-        android:value="finan.db"
+        android:value="finanappdatabase14.db"
         />
     <meta-data
         android:name="AA_DB_VERSION"

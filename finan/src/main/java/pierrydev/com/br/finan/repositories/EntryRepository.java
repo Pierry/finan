@@ -1,5 +1,6 @@
 package pierrydev.com.br.finan.repositories;
 
+import com.activeandroid.query.Delete;
 import com.activeandroid.query.Select;
 import java.util.List;
 import org.androidannotations.annotations.EBean;
@@ -17,7 +18,7 @@ public class EntryRepository implements IEntryRepository {
     return new Select().from(Entry.class).where("Entry = ?", id).executeSingle();
   }
 
-  @Override public List<Entry> getByLocalId(int localId) {
+  @Override public List<Entry> getByLocalId(long localId) {
     return new Select().from(Entry.class).where("local = ?", localId).execute();
   }
 
@@ -30,6 +31,6 @@ public class EntryRepository implements IEntryRepository {
   }
 
   @Override public void remove(Entry entry) {
-    Entry.delete(Entry.class, entry.getId());
+    new Delete().from(Entry.class).where("Id = ?", entry.getId()).execute();
   }
 }

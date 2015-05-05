@@ -6,6 +6,9 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentTransaction;
+import android.support.v4.view.ViewPager;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.ActionBarActivity;
 import android.view.LayoutInflater;
@@ -15,6 +18,7 @@ import android.widget.Button;
 import android.widget.ListView;
 import at.markushi.ui.CircleButton;
 import com.nhaarman.listviewanimations.appearance.simple.ScaleInAnimationAdapter;
+import com.nhaarman.listviewanimations.appearance.simple.SwingBottomInAnimationAdapter;
 import java.util.Collections;
 import java.util.List;
 import org.androidannotations.annotations.AfterViews;
@@ -25,6 +29,7 @@ import org.androidannotations.annotations.EFragment;
 import org.androidannotations.annotations.ItemClick;
 import org.androidannotations.annotations.UiThread;
 import org.androidannotations.annotations.ViewById;
+import pierrydev.com.br.finan.MainActivity_;
 import pierrydev.com.br.finan.R;
 import pierrydev.com.br.finan.domain.contracts.services.IEntryService;
 import pierrydev.com.br.finan.domain.contracts.services.ILocalService;
@@ -33,6 +38,7 @@ import pierrydev.com.br.finan.services.EntryService;
 import pierrydev.com.br.finan.services.LocalService;
 import pierrydev.com.br.finan.utilities.Progress;
 import pierrydev.com.br.finan.views.adapters.GoogleCardsAdapter;
+import pierrydev.com.br.finan.views.adapters.ViewPagerMainAdapter;
 
 @EFragment(R.layout.fragment_main)
 public class MainFragment extends Fragment {
@@ -40,6 +46,7 @@ public class MainFragment extends Fragment {
   private ActionBar _actionBar;
   private List<Entry> lancs;
   private GoogleCardsAdapter googleCardsAdapter;
+  private ViewPager pager;
   private int pagina = 0;
 
   @ViewById CircleButton addItem;
@@ -56,14 +63,14 @@ public class MainFragment extends Fragment {
 
   @AfterViews
   public void init() {
-    _actionBar = ((ActionBarActivity) getActivity()).getSupportActionBar();
+     pager = ((MainActivity_)getActivity()).getPager();
     getListView(Progress.getShow(getActivity()));
     initRodape();
   }
 
   @Click
   public void addItem() {
-    _actionBar.setSelectedNavigationItem(2);
+    pager.setCurrentItem(2);
   }
 
   @Background
@@ -112,10 +119,12 @@ public class MainFragment extends Fragment {
   @UiThread
   public void setAdapterList(List<Entry> models) {
     googleCardsAdapter = new GoogleCardsAdapter(getActivity(), models, localService);
-    ScaleInAnimationAdapter scaleInAnimationAdapter =
-        new ScaleInAnimationAdapter(googleCardsAdapter);
+    SwingBottomInAnimationAdapter scaleInAnimationAdapter =
+        new SwingBottomInAnimationAdapter(googleCardsAdapter);
     scaleInAnimationAdapter.setAbsListView(lvDivida);
     lvDivida.setAdapter(googleCardsAdapter);
+    lvDivida.setDivider(null);
+    lvDivida.setDividerHeight(0);
   }
 
   @ItemClick
