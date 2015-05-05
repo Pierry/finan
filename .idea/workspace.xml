@@ -36,7 +36,8 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="app: pierrydev.com.br.finan" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="92ce253d-f431-46bb-a0e0-39cd0bd7ec3d" name="Default" comment="">
+    <list default="true" id="92ce253d-f431-46bb-a0e0-39cd0bd7ec3d" name="Default" comment="Added heroscreen">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/finan/art/hero.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Finan.iws" />
@@ -1416,6 +1417,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="finan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Finan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="finan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="finan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="art" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -1480,6 +1499,7 @@
       <recent name="pierrydev.com.br.finan.anim" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Pierry\Documents\Repositorios\finan\finan" />
       <recent name="C:\Users\Pierry\AndroidStudioProjects\Finan\app\src\main\res\drawable" />
     </key>
   </component>
@@ -1721,7 +1741,11 @@
       <created>1430845066910</created>
       <updated>1430845066910</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Added heroscreen">
+      <created>1430845594101</created>
+      <updated>1430845594101</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1801,7 +1825,8 @@
     <MESSAGE value="Added Android-RobotoTextView library" />
     <MESSAGE value="Added MaterialEditText Library&#10;Added Dependency Injection with AA&#10;Added Specification Pattern&#10;Added ORM ActiveAndroid Library&#10;Updated buttons" />
     <MESSAGE value="Added SlidingTabLayout&#10;Updated Register &amp; Login screen" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added SlidingTabLayout&#10;Updated Register &amp; Login screen" />
+    <MESSAGE value="Added heroscreen" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added heroscreen" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
